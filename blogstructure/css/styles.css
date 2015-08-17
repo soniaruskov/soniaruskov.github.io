@@ -550,4 +550,20 @@ picture {
   margin: 0;
   max-width: 100%; }
 
+/************ General Page Elements */
+.row-wrapper {
+  display: block; }
+  .row-wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .row-wrapper .outer-container {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto; }
+    .row-wrapper .outer-container::after {
+      clear: both;
+      content: "";
+      display: table; }
+
 /*# sourceMappingURL=styles.css.map */
