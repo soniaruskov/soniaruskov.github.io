@@ -1,8 +1,14 @@
 /************ General Page Elements */
 .row-wrapper {
   @include row();
-
+  
+  &:nth-child(odd) {
+    background: $row-background;
+  }
+    
   .outer-container {
     @include outer-container;
   }
 }
+
+

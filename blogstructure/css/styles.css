@@ -557,6 +557,8 @@ picture {
     clear: both;
     content: "";
     display: table; }
+  .row-wrapper:nth-child(odd) {
+    background: #F2EEDA; }
   .row-wrapper .outer-container {
     max-width: 60em;
     margin-left: auto;
