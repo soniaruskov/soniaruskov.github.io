@@ -11,4 +11,36 @@
   }
 }
 
+/************ Navigation */
+header {
+  @include span-columns(12);
+  height: 72px;
+  display:table;
 
+  #logo {
+    display: table-cell; 
+    vertical-align:middle;
+  }
+  
+  nav {
+    float:right;
+    line-height: 72px;
+    
+    & a {
+      font-size:18px;
+      color: #E3857D;
+      text-transform: uppercase;
+      margin-right:40px;
+      
+      &:last-child {
+        margin-right:9px;
+      }
+    }
+  }
+}
+
+/************ Teaser Top */
+article.teaser--top {
+  @include span-columns(8);
+  @include shift(2);
+}

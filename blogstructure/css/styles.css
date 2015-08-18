@@ -568,4 +568,38 @@ picture {
       content: "";
       display: table; }
 
+/************ Navigation */
+header {
+  float: left;
+  display: block;
+  margin-right: 4.56432%;
+  width: 100%;
+  height: 72px;
+  display: table; }
+  header:last-child {
+    margin-right: 0; }
+  header #logo {
+    display: table-cell;
+    vertical-align: middle; }
+  header nav {
+    float: right;
+    line-height: 72px; }
+    header nav a {
+      font-size: 18px;
+      color: #E3857D;
+      text-transform: uppercase;
+      margin-right: 40px; }
+      header nav a:last-child {
+        margin-right: 9px; }
+
+/************ Teaser Top */
+article.teaser--top {
+  float: left;
+  display: block;
+  margin-right: 4.56432%;
+  width: 65.14523%;
+  margin-left: 17.42739%; }
+  article.teaser--top:last-child {
+    margin-right: 0; }
+
 /*# sourceMappingURL=styles.css.map */
