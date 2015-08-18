@@ -216,4 +216,5 @@ pip-log.txt
 .mr.developer.cfg
 
 #sass cache
-blogstructure/.sass-cache/*
+.sass-cache/
+
