@@ -1,0 +1,4 @@
+.grid-items {
+	@include outer-container;
+	@include margin(100px null);
+}
